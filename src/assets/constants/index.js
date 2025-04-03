@@ -1,5 +1,5 @@
 import project1 from "../projects/project-1.png";
-import project2 from "../projects/project-2.webp";
+import project2 from "../projects/project-2.png";
 import project3 from "../projects/project-3.png";
 import project4 from "../projects/project-4.webp";
 
@@ -44,6 +44,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: project3,
     link: "#",
+    github: "https://github.com/Rav9jsn/Portfolio",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "javaScript"],
@@ -51,18 +52,22 @@ export const PROJECTS = [
   {
     title: "BlacktruthMusic",
     image: project1,
+    github: "https://github.com/Rav9jsn/blacktruth-blog",
+
     link: "https://blacktruthmusic.netlify.app/",
     description:
       "Developed a fully responsive and dynamic website for an independent rapper to showcase their music, biography, and upcoming events. The project involved designing a user-friendly interface with a modern aesthetic that reflects the artist's brand. Integrated features include music streaming, a gallery, an event, and a contact form for bookings. It is a also Clone website of Lil Tjay Offical website.",
     technologies: ["HTML", "CSS", "javaScript", "TailwindCSS"],
   },
-  // {
-  //   title: "Task Management App",
-  //   image: project2,
-  //   description:
-  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-  //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  // },
+  {
+    title: "Learn Ease - (Completion soon.)",
+    image: project2,
+    github: "https://github.com/Rav9jsn/Edtech_website_learnease",
+    link: "https://learnease-edtech.vercel.app/",
+    description:
+      "An innovative e-learning platform offering expert-led courses, interactive lessons, and personalized learning experiences to help you grow and succeed anytime, anywhere.",
+    technologies: ["HTML", "CSS", "TailwindCss", "React"],
+  },
 
   // {
   //   title: "Blogging Platform",

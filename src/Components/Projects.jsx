@@ -1,6 +1,7 @@
 import React from "react";
 import { PROJECTS } from "../assets/constants/index";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -52,6 +53,17 @@ const Projects = () => {
                 {tech}
               </span>
             ))}
+
+            <div className="mt-5">
+              <a
+                className="flex  gap-1 hover:text-blue-200 duration-200 items-center font-bold"
+                target="_blank"
+                href={data.github}
+              >
+                <FaGithub />
+                <p>Code</p>
+              </a>
+            </div>
           </motion.div>
         </div>
       ))}
@@ -59,7 +71,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 0.5 }}
-        className=" capitalize leading-10 my-20 animate-bounce text-center text-4xl"
+        className=" capitalize font-semibold leading-10 my-20 animate-bounce text-center text-3xl"
       >
         More projects loading! ⏳
       </motion.h2>
