@@ -84,7 +84,7 @@ export const PROJECTS = [
     title: "Pixabay",
     image: project5,
     github: "https://github.com/Rav9jsn/pixabay",
-    link: "https://pixabayclone-2akzo567h-ravi-kumars-projects-62aaa132.vercel.app/",
+    link: "https://pixabayclone-teal.vercel.app/",
     description:
       "Pixabay Clone is a responsive stock media platform built using React and Tailwind CSS. It features a clean UI, dynamic media browsing, and intuitive search",
     technologies: ["HTML", "CSS", "React", "TailwindCss"],
