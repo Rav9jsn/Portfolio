@@ -2,6 +2,7 @@ import project1 from "../projects/project-1.png";
 import project2 from "../projects/project-2.png";
 import project3 from "../projects/project-3.png";
 import project4 from "../projects/project-4.webp";
+import project5 from "../projects/project5.webp";
 
 export const HERO_CONTENT = `I am a passionate Front-End Developer with over a year of experience in building dynamic and responsive web applications. Proficient in modern front-end technologies like React.js, JavaScript, Bootstrap and Tailwind CSS, I specialize in creating visually appealing and highly interactive user interfaces. With a strong foundation in HTML, CSS, and performance optimization, I focus on developing scalable and maintainable solutions. My goal is to leverage my skills to craft seamless digital experiences that enhance user engagement and usability.`;
 
@@ -60,7 +61,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "javaScript", "TailwindCSS"],
   },
   {
-    title: "Learn Ease - (Completion soon.)",
+    title: "Learn Ease",
     image: project2,
     github: "https://github.com/Rav9jsn/Edtech_website_learnease",
     link: "https://learnease-edtech.vercel.app/",
@@ -68,14 +69,26 @@ export const PROJECTS = [
       "An innovative e-learning platform offering expert-led courses, interactive lessons, and personalized learning experiences to help you grow and succeed anytime, anywhere.",
     technologies: ["HTML", "CSS", "TailwindCss", "React"],
   },
+  {
+    title: "Gemini 2.O",
+    image: project4,
+    github: "https://github.com/Rav9jsn/gemini",
+    link: "https://gemini-rust-seven.vercel.app/",
 
-  // {
-  //   title: "Blogging Platform",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  // },
+    description:
+      "Gemini Clone is your personal AI assistant built to help you search smarter, create faster, and communicate better. Powered by advanced language models, it understands context, answers questions, and generates content with ease.",
+    technologies: ["HTML", "CSS", "React"],
+  },
+  ,
+  {
+    title: "Pixabay",
+    image: project5,
+    github: "https://github.com/Rav9jsn/pixabay",
+    link: "https://pixabayclone-2akzo567h-ravi-kumars-projects-62aaa132.vercel.app/",
+    description:
+      "Pixabay Clone is a responsive stock media platform built using React and Tailwind CSS. It features a clean UI, dynamic media browsing, and intuitive search",
+    technologies: ["HTML", "CSS", "React", "TailwindCss"],
+  },
 ];
 
 export const CONTACT = {
