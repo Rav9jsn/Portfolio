@@ -1,4 +1,4 @@
-import profilepic from "../assets/raviKumarProfile.png";
+import profilepic from "../assets/raviKumarProfile (1).webp";
 import { HERO_CONTENT } from "../assets/constants/index";
 import { motion } from "framer-motion";
 

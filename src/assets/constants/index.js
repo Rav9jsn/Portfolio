@@ -3,6 +3,7 @@ import project2 from "../projects/project-2.png";
 import project3 from "../projects/project-3.png";
 import project4 from "../projects/project-4.webp";
 import project5 from "../projects/project5.webp";
+import project6 from "../projects/project-6.webp";
 
 export const HERO_CONTENT = `I am a passionate Front-End Developer with over a year of experience in building dynamic and responsive web applications. Proficient in modern front-end technologies like React.js, JavaScript, Bootstrap and Tailwind CSS, I specialize in creating visually appealing and highly interactive user interfaces. With a strong foundation in HTML, CSS, and performance optimization, I focus on developing scalable and maintainable solutions. My goal is to leverage my skills to craft seamless digital experiences that enhance user engagement and usability.`;
 
@@ -51,23 +52,13 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "javaScript"],
   },
   {
-    title: "BlacktruthMusic",
-    image: project1,
-    github: "https://github.com/Rav9jsn/blacktruth-blog",
-
-    link: "https://blacktruthmusic.netlify.app/",
+    title: "Pixabay",
+    image: project5,
+    github: "https://github.com/Rav9jsn/pixabay",
+    link: "https://pixabayclone-teal.vercel.app/",
     description:
-      "Developed a fully responsive and dynamic website for an independent rapper to showcase their music, biography, and upcoming events. The project involved designing a user-friendly interface with a modern aesthetic that reflects the artist's brand. Integrated features include music streaming, a gallery, an event, and a contact form for bookings. It is a also Clone website of Lil Tjay Offical website.",
-    technologies: ["HTML", "CSS", "javaScript", "TailwindCSS"],
-  },
-  {
-    title: "Learn Ease",
-    image: project2,
-    github: "https://github.com/Rav9jsn/Edtech_website_learnease",
-    link: "https://learnease-edtech.vercel.app/",
-    description:
-      "An innovative e-learning platform offering expert-led courses, interactive lessons, and personalized learning experiences to help you grow and succeed anytime, anywhere.",
-    technologies: ["HTML", "CSS", "TailwindCss", "React"],
+      "Pixabay Clone is a responsive stock media platform built using React and Tailwind CSS. It features a clean UI, dynamic media browsing, and intuitive search",
+    technologies: ["HTML", "CSS", "React", "TailwindCss"],
   },
   {
     title: "Gemini 2.O",
@@ -79,16 +70,37 @@ export const PROJECTS = [
       "Gemini Clone is your personal AI assistant built to help you search smarter, create faster, and communicate better. Powered by advanced language models, it understands context, answers questions, and generates content with ease.",
     technologies: ["HTML", "CSS", "React"],
   },
-  ,
+
   {
-    title: "Pixabay",
-    image: project5,
-    github: "https://github.com/Rav9jsn/pixabay",
-    link: "https://pixabayclone-teal.vercel.app/",
+    title: "ToDoList",
+    image: project6,
+    github: "https://github.com/Rav9jsn/todolist",
+    link: "https://todolist-neon-sigma.vercel.app/",
     description:
-      "Pixabay Clone is a responsive stock media platform built using React and Tailwind CSS. It features a clean UI, dynamic media browsing, and intuitive search",
-    technologies: ["HTML", "CSS", "React", "TailwindCss"],
+      "To-Do List app built with React for dynamic UI updates and Tailwind CSS for fast and clean styling. Users can add, delete, and mark tasks as completed. The app showcases modern component-based design with minimal and user-friendly aesthetics.",
+    technologies: ["HTML", "CSS", "TailwindCss", "React"],
   },
+  {
+    title: "Learn Ease",
+    image: project2,
+    github: "https://github.com/Rav9jsn/Edtech_website_learnease",
+    link: "https://learnease-edtech.vercel.app/",
+    description:
+      "An innovative e-learning platform offering expert-led courses, interactive lessons, and personalized learning experiences to help you grow and succeed anytime, anywhere.",
+    technologies: ["HTML", "CSS", "TailwindCss", "React"],
+  },
+  {
+    title: "BlacktruthMusic",
+    image: project1,
+    github: "https://github.com/Rav9jsn/blacktruth-blog",
+
+    link: "https://blacktruthmusic.netlify.app/",
+    description:
+      "Developed a fully responsive and dynamic website for an independent rapper to showcase their music, biography, and upcoming events. The project involved designing a user-friendly interface with a modern aesthetic that reflects the artist's brand. Integrated features include music streaming, a gallery, an event, and a contact form for bookings. It is a also Clone website of Lil Tjay Offical website.",
+    technologies: ["HTML", "CSS", "javaScript", "TailwindCSS"],
+  },
+
+  ,
 ];
 
 export const CONTACT = {
