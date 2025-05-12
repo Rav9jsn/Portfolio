@@ -45,7 +45,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               className="mb-2  hover:animate-pulse duration-1000 hover:underline hover:text-[#DDDDD3] font-semibold text-2xl"
             >
-              {data.title}
+              {data.title} <span className="text-blue-400">↗</span>
             </a>
             <p className="mb-4 text-stone-400 ">{data.description}</p>
             {data.technologies.map((tech, index) => (
